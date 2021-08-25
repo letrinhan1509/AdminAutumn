@@ -1,0 +1,53 @@
+.ant-layout {
+    .header {
+        //background: #222;
+        background-image: url("../img/la.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        .logo {
+            p {
+                color: rgb(241, 178, 19);
+                margin: 0px;
+                font-size: 25px;
+                font-family: "FS Core Magic Rough";
+                letter-spacing: 3px;
+            }
+        }
+        .col-right{
+            .name-box{
+                .box1{
+                    margin-right: 10px;
+                    img{
+                        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+                        border-radius: 50%;
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+            }
+        }
+        .ant-menu {
+            background: none;
+            border: none;
+            display: flex;
+            justify-content: flex-end;
+            color: rgb(241, 178, 19);
+            font-weight: 700;
+            font-size: 17px;
+
+            .ant-menu-item {
+                &:hover {
+                    color: rgb(241, 178, 19);
+                    border-bottom: none;
+                }
+            }
+            .ant-menu-item-selected {
+                color: rgb(241, 178, 19);
+            }
+        }
+    }
+}

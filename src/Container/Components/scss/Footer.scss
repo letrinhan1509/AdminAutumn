@@ -1,0 +1,15 @@
+.footer{
+    
+    padding: 10px 50px;
+    .ant-divider-horizontal {
+        margin: 20px 0px;
+    }
+    .ant-row{
+        display: flex;
+        justify-content: center;
+        p{
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

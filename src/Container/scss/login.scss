@@ -1,0 +1,30 @@
+.login-box {
+    height: 750px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login-wrapper {
+        width: 550px;
+        background-image: url("./img/la.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        //background: green;
+        filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
+        border-radius: 10px;
+        h2 {
+            font-size: 25px;
+            margin: 20px 0px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: rgb(241, 178, 19);
+        }
+        .ant-form-item-required{
+            color: rgb(241, 178, 19);
+            font-weight: bold;
+        }
+    }
+}

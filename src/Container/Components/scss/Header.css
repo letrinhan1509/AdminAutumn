@@ -1,0 +1,31 @@
+.ant-layout .header {
+  background: #222;
+}
+
+.ant-layout .header .logo {
+  margin-left: 20px;
+}
+
+.ant-layout .header .logo p {
+  color: #b76e22;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "FS Core Magic Rough";
+  letter-spacing: 3px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ant-layout .header .ant-menu {
+  background: #222;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #b76e22;
+}
+/*# sourceMappingURL=Header.css.map */
